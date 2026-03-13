@@ -32,7 +32,8 @@ nav a {
   max-width: 420px;
   padding: 50px;
   margin: 50px auto;
-  background:white;
+  border: 2px solid #ccc;
+  background:whitesmoke
 }
 .container input {
   width: 30em;
