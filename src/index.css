@@ -16,118 +16,43 @@ nav {
 nav a {
   text-decoration: none;
   color: white;
-  padding: 6px 12px;
-  border-radius: 6px;
-  transition: background 0.3s, transform 0.2s;
 }
-
-nav a:hover {
-  background-color: rgba(234, 0, 0, 0.3);
-  transform: translateY(-2px);
-}
-
-nav a.active {
-  background-color: rgba(234, 0, 0, 0.3);
-}
-
 .login-container {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: whitesmoke;
-
 }
-
 .login-form {
   background-color:white;
-
   padding: 40px;
-  border-radius: 8px;
   width: 320px;
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
+    text-align: center;
 
-.login-form h2 {
-  text-align: center;
-  color: #2f3640;
 }
-
 .login-form input {
   padding: 10px;
   border: 1px solid #dcdde1;
-  border-radius: 6px;
 }
-
 .login-form button {
   padding: 10px;
-  border: none;
   background:rgb(31, 45, 90);
   color: white;
-  border-radius: 5px;
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
 }
-
-.login-form button:hover {
-  transform: translateY(-2px);
-}
-
-
-
-.signup-link {
-  text-align: center;
-  font-size: 14px;
-}
-
-.signup-link a {
-  color: #0097e6;
-  text-decoration: none;
-}
-
-.signup-link a:hover {
-  text-decoration: underline;
-}
-
-.movie-list {
-  padding: 40px;
-  background-color: #f5f5f5;
-}
-
 .movie-list-title {
   text-align: center;
-  margin-bottom: 20px;
-}
-
-.movies {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 20px;
-}
+  }
 
 .movie {
-  background: white;
   padding: 15px;
-  border-radius: 8px;
-  transition: transform 0.2s, box-shadow 0.2s;
   cursor: pointer;
 }
 
-.movie:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.movie h3 {
-  margin: 0 0 10px;
-}
-
-.movie p {
-  font-size: 14px;
-  color: #555;
-}
 
 .container {
   max-width: 420px;
@@ -164,49 +89,13 @@ nav a.active {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.container button:hover {
-  transform: translateY(-2px);
-}
-.Favorites-item {
-  background-color: #fff;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.Favorites-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
 .search-bar {
   width: 30%;
   margin: 20px auto;
   display: block;
-  padding: 8px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-}
-.movie-detail {
-  margin: 0 auto;
-  padding: 10px;
-}
-.comment-input {
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  font-size: 14px;
 }
 
-.comment-button {
-  padding: 10px;
-  border-radius: 6px;
-  border: none;
-  background:rgb(31, 45, 90);
-  color: white;
-  font-size: 14px;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
 
-.comment-button:hover {
-  transform: translateY(-2px);
-}
+
+
+
