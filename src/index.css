@@ -1,10 +1,6 @@
-
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: whitesmoke;
 }
-
 nav {
   display: flex;
   justify-content: center;
@@ -12,7 +8,6 @@ nav {
   background:rgb(31, 45, 90);
   padding: 12px 0;
 }
-
 nav a {
   text-decoration: none;
   color: white;
@@ -31,64 +26,18 @@ nav a {
   display: flex;
   flex-direction: column;
   gap: 15px;
-    text-align: center;
-
-}
-.login-form input {
-  padding: 10px;
-  border: 1px solid #dcdde1;
-}
-.login-form button {
-  padding: 10px;
-  background:rgb(31, 45, 90);
-  color: white;
-  cursor: pointer;
-}
-.movie-list-title {
   text-align: center;
-  }
-
-.movie {
-  padding: 15px;
-  cursor: pointer;
 }
-
-
 .container {
   max-width: 420px;
   padding: 50px;
   margin: 50px auto;
-
   background:white;
-  border-radius: 16px;
 }
-
 .container input {
   width: 30em;
-  padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
 }
-
-.container button {
-  
-  width: 100%;
-  padding: 10px;
-  background: rgb(31, 45, 90);
-  border: none;
-  width: 100%;
-  padding: 10px;
-  background: rgb(31, 45, 90);
-  border: none;
-  color: white;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;  border-radius: 6px;
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
 .search-bar {
   width: 30%;
   margin: 20px auto;
